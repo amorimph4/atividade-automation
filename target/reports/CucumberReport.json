@@ -1,0 +1,646 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Um usuário está na página Agapito Software Testing",
+        "description": "",
+        "id": "um-simples-crud;um-usuário-está-na-página-agapito-software-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6172186757,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Dado usuário que está na home page",
+            "match": {
+              "location": "CRUDSelenium.postAUserWantToAddAItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103812346,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicar no menu \"processos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processos",
+                  "offset": 16
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2886606012,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clicar no botão novo processo",
+            "match": {
+              "location": "CRUDSelenium.theUserClickOnButtonNovoProcesso()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 334917050,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Preencher o campo \"processo_vara\" com o valor \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_vara",
+                  "offset": 19
+                },
+                {
+                  "val": "5",
+                  "offset": 47
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnFieldAndSetValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111993396,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Preencher o campo \"processo_numero_processo\" com o valor \"69696\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 19
+                },
+                {
+                  "val": "69696",
+                  "offset": 58
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnFieldAndSetValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88234464,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Preencher o campo \"processo_natureza\" com o valor \"Dayane\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_natureza",
+                  "offset": 19
+                },
+                {
+                  "val": "Dayane",
+                  "offset": 51
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnFieldAndSetValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141899487,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Preencher o campo \"processo_data_entrada\" com o valor \"15/03/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 19
+                },
+                {
+                  "val": "15/03/2020",
+                  "offset": 55
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnFieldAndSetValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99801336,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Preencher o campo \"processo_assistente_social\" com o valor \"Moreira\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_assistente_social",
+                  "offset": 19
+                },
+                {
+                  "val": "Moreira",
+                  "offset": 60
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnFieldAndSetValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280029859,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Preencher o campo \"processo_data_agendamento\" com o valor \"Dayane Moreira\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_agendamento",
+                  "offset": 19
+                },
+                {
+                  "val": "Dayane Moreira",
+                  "offset": 59
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnFieldAndSetValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113625304,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Preencher o campo \"processo_partes\" com o valor \"Dayane x Moreira\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_partes",
+                  "offset": 19
+                },
+                {
+                  "val": "Dayane x Moreira",
+                  "offset": 49
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnFieldAndSetValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77497299,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Preencher o campo \"processo_status\" com o valor \"Day\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_status",
+                  "offset": 19
+                },
+                {
+                  "val": "Day",
+                  "offset": 49
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnFieldAndSetValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113170782,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Selecionar o valor \"Sim\" no campo urgencia",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 20
+                }
+              ],
+              "location": "CRUDSelenium.theUserSelectValueOnUrgenteField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69760546,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Clicar em \"Sim\" no campo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 11
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickRadioButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86593036,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Preencher o campo \"processo_observacao\" com o valor \"DKPM\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_observacao",
+                  "offset": 19
+                },
+                {
+                  "val": "DKPM",
+                  "offset": 53
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnFieldAndSetValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 550438937,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Clicar no botao \"btn-save\" para salvar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 17
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnButtonToSave(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85914954,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Deverá ser apresentada a mensagem \"Processo foi criado com sucesso.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 35
+                }
+              ],
+              "location": "CRUDSelenium.theUserShouldSeeTheMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Usuário deseja ver detalhes do processo",
+        "description": "",
+        "id": "um-simples-crud;usuário-deseja-ver-detalhes-do-processo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 325832598,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Dado usuário que está na home page",
+            "match": {
+              "location": "CRUDSelenium.postAUserWantToAddAItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88004206,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Clicar no menu \"processos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processos",
+                  "offset": 16
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1473026618,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "clicar no botão mostrar lista com id \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 38
+                }
+              ],
+              "location": "CRUDSelenium.userSelectTheItemOfListWithId(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70189680,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Usuario deve ver os detalhes do processo",
+            "match": {
+              "location": "CRUDSelenium.theUserShouldSeeTheDetailsOsProcess()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Usuário deseja atualizar um item",
+        "description": "",
+        "id": "um-simples-crud;usuário-deseja-atualizar-um-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 498028875,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Dado usuário que está na home page",
+            "match": {
+              "location": "CRUDSelenium.postAUserWantToAddAItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88771147,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Clicar no menu \"processos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processos",
+                  "offset": 16
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 821028201,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Clicar no botão Editar item com id \"461\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "461",
+                  "offset": 36
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnButtonEditarOfItemWithId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 316415627,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Preencher o campo \"processo_vara\" com o valor \"50\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_vara",
+                  "offset": 19
+                },
+                {
+                  "val": "50",
+                  "offset": 47
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnFieldAndSetValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84243201,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Preencher o campo \"processo_numero_processo\" com o valor \"5050\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 19
+                },
+                {
+                  "val": "5050",
+                  "offset": 58
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnFieldAndSetValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104516873,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Preencher o campo \"processo_natureza\" com o valor \"Guardar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_natureza",
+                  "offset": 19
+                },
+                {
+                  "val": "Guardar",
+                  "offset": 51
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnFieldAndSetValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 581509014,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Clicar no botao \"btn-save\" para salvar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 17
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnButtonToSave(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86738666,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Deverá ser apresentada a mensagem \"Processo atualizado com sucesso.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo atualizado com sucesso.",
+                  "offset": 35
+                }
+              ],
+              "location": "CRUDSelenium.theUserShouldSeeTheMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Usuário deseja excluir um item",
+        "description": "",
+        "id": "um-simples-crud;usuário-deseja-excluir-um-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 570239751,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Dado usuário que está na home page",
+            "match": {
+              "location": "CRUDSelenium.postAUserWantToAddAItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93912997,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Clicar no menu \"processos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processos",
+                  "offset": 16
+                }
+              ],
+              "location": "CRUDSelenium.theUserClickOnMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 835785545,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Clicar no botao Apagar do item com o ID \"594\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "594",
+                  "offset": 41
+                }
+              ],
+              "location": "CRUDSelenium.userPressButtonApagarOfItemWithId(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2196097666,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "O item com o ID \"594\" não devera existir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "594",
+                  "offset": 17
+                }
+              ],
+              "location": "CRUDSelenium.theItemWithIdShouldNotExist(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Um simples CRUD",
+    "description": "",
+    "id": "um-simples-crud",
+    "keyword": "Feature",
+    "uri": "crudSelenium.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run"
+      }
+    ]
+  }
+]
